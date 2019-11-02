@@ -25,7 +25,7 @@ do
     Print( ScreenFPS() )
 	Print("IK KAN CODEREN")
 	for i= 1 to 10
-		Print("Test Line")
+		Print("Test Line"+str(i)) // text + showing which repeated line it is from the bunch
 	next i
     Sync()
 loop
