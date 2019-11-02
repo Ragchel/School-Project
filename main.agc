@@ -23,5 +23,9 @@ do
     
 
     Print( ScreenFPS() )
+	Print("IK KAN CODEREN")
+	for i= 1 to 10
+		Print("Test Line")
+	next i
     Sync()
 loop
