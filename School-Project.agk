@@ -50,13 +50,10 @@ output_path=
 
 [projectfiles]
 FILE_0=main.agc;-1
-FILE_1=Shooter.agc;-1
-FILE_2=Menu.agc;-1
+FILE_1=Playermove.agc;-1
+FILE_2=Loader.agc;-1
 
 [files]
-FILE_NAME_0=0;main.agc;699;0
-FILE_NAME_1=0;Shooter.agc;0;1
-FILE_NAME_2=1;Menu.agc;0;2
 
 [project]
 description=
