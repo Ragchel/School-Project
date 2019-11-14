@@ -1,6 +1,6 @@
 SetErrorMode(2)
 SetWindowTitle( "Emily's test game" )
-SetWindowSize( 1920, 1080, 1)
+SetWindowSize( 1920,1080,1)
 SetVirtualResolution(1920,1080)
 UseNewDefaultFonts(1)
 
