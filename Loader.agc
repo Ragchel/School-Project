@@ -1,7 +1,7 @@
 Loader:
 LoadImage(1,"background.png")
 CreateSprite(1,1)
-LoadImage(110,"player.jpg")
+LoadImage(110,"player.png")
 
 CreateSprite(110,110)
 playerx=GetVirtualWidth()/2 - GetSpriteWidth(110)/2
