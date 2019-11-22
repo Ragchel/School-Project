@@ -23,5 +23,10 @@ do
 	Gosub PlayerMove
 	Gosub Player_shoots
 	
+	//exit
+	if GetRawKeyPressed(27)
+		end
+	endif
+	
 	Sync()
 Loop
