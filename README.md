@@ -1,2 +1,5 @@
 # School-Project
- Forced to create some game or smth for school (?) no experience with this
+
+My attempt at actually making a game as school project
+
+Written with AppGameKit including a bit of C++ at some points possibly
