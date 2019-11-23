@@ -1,6 +1,6 @@
 Player_shoots:
 
-if GetPointerPressed()=1 and lazer_fired=0
+if GetRawKeyPressed(90)=1 and lazer_fired=0
 	lazer_fired=1
 	lazerx=GetSpriteX(110)+GetSpriteWidth(110)/220-GetSpriteWidth(220)/220
 	lazery=GetSpriteY(110)
