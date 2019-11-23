@@ -7,18 +7,18 @@ if playerx<0
 	playerx=0
 endif
 
-if playerx>GetVirtualWidth()-GetSpriteWidth(110)
-	playerx=GetVirtualWidth()-GetSpriteWidth(110)
+if playerx>GetVirtualWidth()-GetSpriteWidth(100)
+	playerx=GetVirtualWidth()-GetSpriteWidth(100)
 endif
 
 if playery<0
 	playery=0
 endif
 
-if playery>GetVirtualHeight()-GetSpriteHeight(110)
-	playery=GetVirtualHeight()-GetSpriteHeight(110)
+if playery>GetVirtualHeight()-GetSpriteHeight(100)
+	playery=GetVirtualHeight()-GetSpriteHeight(100)
 endif
 
-SetSpritePosition(110,playerx,playery)
+SetSpritePosition(100,playerx,playery)
 
 Return
