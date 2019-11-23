@@ -1,7 +1,7 @@
 PlayerMove:
 
-playerx=playerx+GetDirectionX()*12
-playery=playery+GetDirectionY()*12
+playerx=playerx+GetDirectionX()*6
+playery=playery+GetDirectionY()*6
 
 if playerx<0
 	playerx=0
