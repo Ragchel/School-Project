@@ -1,28 +1,32 @@
 Loader:
-//LoadImage(1,"background.png")
-//CreateSprite(1,1)
-LoadImage(110,"player.png")
-loadimage (220, "Bullet.png")
-CreateText (330, "Controls")
-CreateText (331, "Arrows")
-CreateText (332, "Shoot")
+//Sprites=100-299
+//Text=300-399
+LoadImage(100,"player.png")
+loadimage(101, "Bullet.png")
+CreateText(300, "Controls")
+CreateText(301, "Arrows")
+CreateText(302, "Shoot")
+CreateText(303, "Exit")
 
-CreateSprite(110,110)
-playerx=GetVirtualWidth()/2 - GetSpriteWidth(110)/2
-playerY=GetVirtualHeight()-GetSpriteHeight(110)
+CreateSprite(100,100)
+playerx=GetVirtualWidth()/2 - GetSpriteWidth(100)/2
+playerY=GetVirtualHeight()-GetSpriteHeight(100)
 
-SetSpritePosition(110,playerx,playery)
+SetSpritePosition(100,playerx,playery)
 
-CreateSprite(220,220)
-SetSpritePosition(220,-100,-100)
+CreateSprite(101,101)
+SetSpritePosition(101,-100,-100)
 
-SetTextPosition(330,0,15)
-SetTextSize(330,20)
-SetTextPosition(331,0,27)
-SetTextSize(331,20)
-SetTextPosition(332,0,39)
-SetTextSize(332,20)
-SetTextString(331,"Arrows keys for movement")
-SetTextString(332,"Z for Shoot")
+SetTextPosition(300,0,15)
+SetTextSize(300,20)
+SetTextPosition(301,0,26)
+SetTextSize(301,20)
+SetTextString(301,"Arrows for movement")
+SetTextPosition(302,0,37)
+SetTextSize(302,20)
+SetTextString(302,"Z for Shoot")
+SetTextPosition(303,0,49)
+SetTextSize(303,20)
+SetTextString(303,"Esc to Exit")
 
 Return
