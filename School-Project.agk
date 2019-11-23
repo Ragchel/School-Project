@@ -55,7 +55,10 @@ FILE_2=Loader.agc;-1
 FILE_3=Player_shoot.agc;-1
 
 [files]
-FILE_NAME_0=1;Player_shoot.agc;0;0
+FILE_NAME_0=0;main.agc;0;0
+FILE_NAME_1=0;Playermove.agc;395;3
+FILE_NAME_2=1;Loader.agc;486;1
+FILE_NAME_3=0;Player_shoot.agc;14;2
 
 [project]
 description=
