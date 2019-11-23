@@ -30,3 +30,14 @@ do
 	
 	Sync()
 Loop
+
+//do
+	//if score = 9999
+		//print ("You wasted a lot of time by now")
+		//Repeat
+			//size=Timer()+4
+		//Until Timer()>25
+	//endif
+	
+	//sync ( )
+//loop
