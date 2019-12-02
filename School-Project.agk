@@ -57,12 +57,12 @@ FILE_4=Enemy_move.agc;-1
 FILE_5=Collision.agc;-1
 
 [files]
-FILE_NAME_0=0;main.agc;640;5
-FILE_NAME_1=0;Playermove.agc;425;4
-FILE_NAME_2=0;Loader.agc;751;2
+FILE_NAME_0=0;main.agc;0;5
+FILE_NAME_1=0;Playermove.agc;0;4
+FILE_NAME_2=0;Loader.agc;0;2
 FILE_NAME_3=0;Player_shoot.agc;0;3
-FILE_NAME_4=0;Enemy_move.agc;33;1
-FILE_NAME_5=1;Collision.agc;174;0
+FILE_NAME_4=0;Enemy_move.agc;0;1
+FILE_NAME_5=1;Collision.agc;293;0
 
 [project]
 description=
